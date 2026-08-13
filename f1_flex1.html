@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout design</title>
+    <style>
+        body {
+            margin: 100px;
+            font-family: Arial, sans-serif;
+            background: #333;
+            color: white;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 80px 250px 80px;
+            gap: 2px;
+            border: 2px solid white;
+        }
+
+        .box {
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        .header-left {
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        .header-right {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        .content-left {
+            grid-column: 1;
+            grid-row: 2;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
+        .content-right {
+            grid-column: 2;
+            grid-row: 2;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .footer-left {
+            grid-column: 1;
+            grid-row: 3;
+        }
+
+        .footer-right {
+            grid-column: 2;
+            grid-row: 3;
+        }
+
+        .small-box {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(to bottom, #4da6ff, #0066cc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box header-left">Logo</div>
+    <div class="box header-right">Links</div>
+
+    <div class="box content-left">
+        <div class="small-box">Small<br>Square Box</div>
+    </div>
+
+    <div class="box content-right">
+        <div class="small-box">Small<br>Square Box</div>
+    </div>
+
+    <div class="box footer-left">Footer1</div>
+    <div class="box footer-right">Footer2</div>
+</div>
+
+</body>
+</html>
