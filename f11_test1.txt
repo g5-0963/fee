@@ -1,0 +1,20 @@
+Q1. What do you know about Functions ?
+Ans:- Function is a resusable block of code to perform the specific task.
+-> It can be userdefined or built-in function . 
+-> Function can have zero or more parameters.
+ 
+Q2 What is layout ?
+Ans:- Layout is the pre-defined structure of web page .
+
+
+Q3. What do you know about flex layout?
+Ans:- Flex layout helps to align items or adjust.
+-> It is used to make the page responsive and distributive.
+
+Q4:- What is the need of grid layout?
+Ans :- Grid layout is used to make the item align in rows and columns.
+-> It is used to make responsive 2 dimensional layout.
+
+
+Ques 5 :- What is the use of Github?
+Ans:- Github is the cloud- based platform to host , manage and collaborate project. 
