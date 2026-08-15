@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:black;
+            font-family:Arial, sans-serif;
+        }
+
+        .container{
+            width:900px;
+            height:500px;
+            border:2px solid white;
+            color:white;
+        }
+
+        .header{
+            display:flex;
+            height:70px;
+        }
+
+        .logo{
+            width:50%;
+            border:1px solid white;
+            padding:10px;
+            font-weight:bold;
+        }
+
+        .links{
+            width:50%;
+            border:1px solid white;
+            padding:10px;
+            font-weight:bold;
+        }
+
+        .main{
+            height:360px;
+            border:1px solid white;
+            position:relative;
+        }
+
+        .box1{
+            width:180px;
+            height:120px;
+            background:royalblue;
+            position:absolute;
+            top:80px;
+            left:320px;
+        }
+
+        .box2{
+            width:180px;
+            height:120px;
+            background:royalblue;
+            position:absolute;
+            top:140px;
+            left:430px;
+        }
+
+        .footer{
+            display:flex;
+            height:68px;
+        }
+
+        .footer1{
+            width:50%;
+            border:1px solid white;
+            padding:10px;
+            font-weight:bold;
+        }
+
+        .footer2{
+            width:50%;
+            border:1px solid white;
+            padding:10px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">Logo</div>
+            <div class="links">Links</div>
+        </div>
+
+        <div class="main">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+
+        <div class="footer">
+            <div class="footer1">Footer1</div>
+            <div class="footer2">Footer2</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
