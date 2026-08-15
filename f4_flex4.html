@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position Demo</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#222;
+            color:white;
+            padding:20px;
+        }
+
+        .container{
+            width:80%;
+            margin:auto;
+            border:2px solid white;
+        }
+
+        .header{
+            height:80px;
+            border-bottom:2px solid white;
+        }
+
+        .row{
+            display:flex;
+            border-bottom:2px solid white;
+        }
+
+        .logo,
+        .links{
+            width:50%;
+            height:100px;
+            border-right:2px solid white;
+            padding:10px;
+        }
+
+        .links{
+            border-right:none;
+        }
+
+        .content{
+            position:relative;
+            height:350px;
+        }
+
+        .box{
+            width:160px;
+            height:100px;
+            background:#00bfff;
+            color:white;
+            font-weight:bold;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            border-radius:5px;
+        }
+
+        .left-box{
+            position:absolute;
+            top:20px;
+            left:20px;
+        }
+
+        .right-box{
+            position:absolute;
+            bottom:20px;
+            right:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header"></div>
+
+        <div class="row">
+            <div class="logo">
+                <h3>Logo</h3>
+            </div>
+
+            <div class="links">
+                <h3>Links</h3>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="box left-box">
+                Left Top Corner Box
+            </div>
+
+            <div class="box right-box">
+                Right Bottom Corner Box
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
