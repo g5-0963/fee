@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin :0;
+            padding : 0 ;
+            box-sizing:border-box;
+        }
+        body{
+            min-height: 100dvh;
+            background-image:url("https://hblimg.mmtcdn.com/content/hubble/img/sydney/mmt/destination/m_Sydney_destination_l_571_857.jpg");
+            background-size: cover;
+            background-position: centre ;
+        }
+        .p{
+            padding:0.5rem;
+        }
+        section{
+            width:100%;
+        }
+        .box{
+            width:100%;
+            height:7rem;
+            border : 1px solid white;
+            border-radius:5px;
+            overflow:hidden;
+        }
+        .card{
+            padding:0.5rem;  
+            width:100%;
+             height:7rem;
+            border : 1px solid white;
+            border-radius:5px;
+            overflow:hidden;
+            box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.5);
+            background-color: hsla(215,100%,80%,0.3);
+            backdrop-filter: blur(5px);
+            color:white;
+            max-width:500px;
+
+        }
+        .fc1{
+            min-height:100dvh;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+            align-items: center;
+            gap:0.5rem;
+        }
+        .fc2{
+            display:flex;
+            flex-direction:row;
+            justify-content: center;
+            gap:0.5rem;
+        }
+        @media  screen and (min-width : 767px) {
+            #s1,
+            #s2{
+                width :80%;
+            }
+            
+        }
+        @media screen and(min-width:1024px){
+            #s1,
+            #s2{
+                width:70%;
+            }
+        }
+      
+    </style>
+</head>
+<body>
+    <section class ="p fc1">
+        <section class = "fc2" id="s1">
+            <div class = "card">Box1</div>
+        </section>
+        <section class = "fc2" id = "s2">
+            <div class = "card">Box2</div>
+             <div class = "card">Box3</div>
+              <div class = "card">Box4</div>
+        </section>
+    </section>
+</body>
+</html>
