@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#555;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+
+.top{
+    width:90%;
+    margin:20px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:5px;
+}
+
+.box{
+    height:60px;
+    border:2px solid white;
+}
+
+/* Header */
+header{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    border:2px solid white;
+}
+
+
+.links{
+    min-height:120px;
+    border:1px solid white;
+    padding:10px;
+}
+
+.links a{
+    color:white;
+    margin-right:15px;
+    text-decoration:none;
+}
+
+
+main{
+    width:90%;
+    margin:auto;
+    height:420px;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
+
+.card{
+    width:280px;
+    height:120px;
+    background:#00bfff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    border-radius:4px;
+}
+
+
+footer{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    border:2px solid white;
+}
+
+.footer-box{
+    min-height:80px;
+    border:1px solid white;
+    padding:10px;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Top -->
+    <div class="top">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+  
+    <header>
+        <div class="logo">Logo</div>
+        <div class="links"> Links </div>
+    </header>
+
+
+    <main>
+        <div class="card">Super Rectangle Box</div>
+        <div class="card">Super Rectangle Box</div>
+    </main>
+
+   
+    <footer>
+        <div class="footer-box">Footer1</div>
+        <div class="footer-box">Footer2</div>
+    </footer>
+
+</body>
+</html>
