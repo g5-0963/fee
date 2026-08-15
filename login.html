@@ -1,0 +1,105 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name = "Author" content="Harmanpreet Kaur"/>
+    <meta name = "Description" content="Create login form"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>login Form</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+     *{ 
+        margin:0; 
+        padding: 0; 
+        box-sizing: border-box; 
+     } 
+     body{ 
+        min-height: 100vh; 
+        background-color: #314158; 
+       font-family: "Poppins", sans-serif;
+       display: flex; 
+       justify-content: center; 
+       align-items: center; 
+   } 
+   section{ 
+    background-color: azure; 
+     width: 20rem; 
+     padding: 1rem; 
+     border-radius: 8px; 
+     box-shadow:0 5px 10px rgba(0,0,0,0.2); 
+     font-size:1.2rem; 
+     display:flex; 
+     justify-content: center; 
+ 
+   } 
+   label{ 
+    display: block; 
+    margin-top: 6px; 
+    margin-bottom: 3px; 
+} 
+ 
+button{ 
+    margin-top:12px; 
+} 
+ 
+   input{ 
+    height:40px; 
+   padding: 2px 10px; 
+   font-size:1.1rem; 
+   width:100%; 
+   outline: none; 
+   border:none; 
+   border-radius:8px; 
+   background-color: rgba(0,0,255,0.1); 
+   } 
+  button { 
+    width: 100%; 
+    height: 45px; 
+    background-color: royalblue; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 18px; 
+    cursor: pointer; 
+} 
+ 
+button:hover { 
+    background-color: #314158; 
+}
+   </style> 
+</head> 
+<body> 
+    <section> 
+        <main> 
+            <form action ="#" method="get" placeholder = " Enter your email " minlength = "3" maxlength = "3" required> 
+                <h2 style="text-align: center;">Login</h2> 
+                <br/> 
+                <label for = "email">Email</label><!-- for id se link karta hai--> 
+                <input  
+                type = "email" 
+                id= "email" 
+                name="email" 
+                placeholder="Enter your Email" 
+                required 
+                > 
+                <br/><br/> 
+                <label for = "password"> Password</label> 
+                <input 
+                type ="password" 
+                id = "password" 
+                name = "password" 
+                placeholder="Enter your password" 
+                minlength="3" 
+                required 
+                 
+                >  
+                <br/><br/>                
+                <button  type = "submit"> Submit </button> 
+            </form> 
+        </main> 
+    </section> 
+     
+</body> 
+</html> 
