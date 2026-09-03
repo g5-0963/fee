@@ -1,0 +1,18 @@
+Ques 1 : What is DOM ?
+Ans:- Dom stands for Document Object Model.It used for add,edit,delete the object in a  page.
+
+Ques 2 : What are 5 DOM Manipulation functions ?
+Ans : 1. getElementbyId()
+       2. querySelector()
+       3.createElement()
+       4 remove()
+       5 appendChild()
+
+Ques 3 : What is meaning of asynchronous operations?
+Ans: Asynchronous JavaScript allows us to move on to the next task while we wait for an answer (i.e. a "callback") from the server.       
+
+Ques 4 : What is virtual Dom?
+Ans :The Virtual DOM is a lightweight, in-memory copy of the actual browser Document Object Model (DOM) used by frameworks like React to update user interfaces efficiently
+
+Ques 5 : How react responds fast to user actions?
+Ans: It responds fast to user action because of virtual Dom.
