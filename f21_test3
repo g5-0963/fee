@@ -14,3 +14,23 @@ User Experience (UX) describes how users feel and interact with a website.
 It focuses on simple navigation, fast responses, clear information, and user satisfaction. 
 It ensures  that users can complete their goals comfortably.
 caption = A better experience means happier users.
+
+3rd most important component :- 
+React is a JavaScript library not a Framework . 
+It is mainly used to make a single page application. 
+React makes websites fast and responsive.
+React uses a Virtual DOM, so it does not refresh the entire webpage every time something changes.
+Caption = The page stays, but the UI keeps changing.
+
+React components are functional Components.
+A component is basically a small part of a webpage that we can create once and reuse whenever we need it. 
+It keeps the UI simple, organized, and easier to manage.
+React App is a collection of Components.
+Caption = Small pieces that come together to build the whole UI.
+
+
+JavaScript is a programming language used to make website interactive and dynamic.
+It helps a website respond when we click a button, type something, submit a form, or perform an action. 
+In short , HTML creates the structure, CSS makes it look good, and JavaScript makes it work.
+Caption = The part that makes the website respond.
+
